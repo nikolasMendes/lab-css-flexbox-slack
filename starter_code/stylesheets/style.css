@@ -8,3 +8,98 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+.logo-style{
+    width: 100px;
+}
+
+.backgroud {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.icon-search {
+    background: none;
+    border: none;
+}
+
+.menu {
+    background: none;
+    border: none;
+}
+
+#menu > item {
+    width: 50px;
+    height: 100px;
+}
+
+.h1-text {
+    background-color: #540B51;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    border: 20px solid #540B51;
+    margin: 0px;
+}
+
+.p1-text {
+background-color: #540B51;
+text-align: center;
+color: white;
+border: none;
+margin: 0px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.span1 {
+    color: #ECB12F;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    background-color: #540B51;
+}
+.flexbox-item {
+    width: 140px;
+    margin: 10px;
+    border: 3px;
+    justify-content: center;
+    
+}
+.flexbox-item-1 {
+    padding: 20px;
+    height: 50px;
+    width: 374px;
+}
+.flexbox-item-2 {
+    padding: 20px;
+    height: 50px;
+    width: 374px;
+    background-color:#4285F4;
+    text-align: center;
+}
+.flexbox-item-3 {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    top: 397px;
+    height: 25px;
+    width: 25px;
+    border: 8px solid white;
+    margin: 0px;
+    left: 30px;
+}
+
+.screenshot {
+    display:flex;
+    
+}
+
+
